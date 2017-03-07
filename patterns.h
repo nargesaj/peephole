@@ -946,7 +946,7 @@ int simplify_swap_ldc_string_putfield(CODE **c)
 #define OPTS 35
 
 OPTI optimization[OPTS] = {/* Laurie's patterns */
-									simplify_multiplication_right,
+			   simplify_multiplication_right,
                            simplify_astore,
                            positive_increment,
                            simplify_goto_goto,
